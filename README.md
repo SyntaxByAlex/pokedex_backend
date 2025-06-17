@@ -14,7 +14,10 @@ npm install -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-
+5. Levantar datos semilla (solo desarrollo)
+```
+http://localhost:3001/api/seed
+```
 ### Stack usado
 
 * Mongo DB
