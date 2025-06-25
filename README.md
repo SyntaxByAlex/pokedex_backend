@@ -13,8 +13,13 @@ npm install -g @nestjs/cli
 4. Levantar la base de datos
 ```
 docker-compose up -d
+
 ```
-5. Levantar datos semilla (solo desarrollo)
+5. Clonar env.template y renombrarlo .env
+
+6. Llenar las variables de entorno
+
+7. Levantar datos semilla (solo desarrollo)
 ```
 http://localhost:3001/api/seed
 ```
