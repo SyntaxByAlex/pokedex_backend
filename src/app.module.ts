@@ -18,7 +18,9 @@ import { JoiSquemaValidation } from './config/joi.squema.validation';
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'public'),
     }),
-    MongooseModule.forRoot(process.env.MONGODB!),
+    MongooseModule.forRoot(process.env.MONGODB!,{
+      dbName:"pokemondb"
+    }),
 
     PokemonModule,
 
